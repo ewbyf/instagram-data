@@ -1,1 +1,1 @@
-from app import app
+from scraper import scrape

@@ -1,8 +1,8 @@
-from scraper import scrape
+from instagram_data import scrape
 from instagrapi.exceptions import BadPassword, UnknownError, SentryBlock, ChallengeRequired
 
 
-def app():
+def main():
     finished = False
     while not finished:
         username = input("Enter your username: ")
@@ -19,3 +19,6 @@ def app():
         except SentryBlock:
             print("Your IP associated with this account is most likely banned from Instagram. Try a different IP or account.")
 
+
+if __name__ == '__main__':
+    main()

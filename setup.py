@@ -13,5 +13,8 @@ setup(
     author_email="ewbyf@umsystem.edu",
     packages=find_packages(),
     install_requires=['beautifulsoup4', 'requests', 'instagrapi', 'pillow'],
+    entry_points={
+        'console_scripts': ['instagram-data=instagram_data.app:main'],
+    },
     keywords=['instagram', 'scraper', 'download', 'media', 'followers'],
 )
