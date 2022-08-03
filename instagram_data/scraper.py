@@ -38,7 +38,7 @@ def scrape(username, password):
                 # Grabs and saves profile pictures
                 imageUrl = user.profile_pic_url_hd
                 img = Image.open(requests.get(imageUrl, stream=True).raw)
-                destination = os.path.join(os.path.dirname(__file__), f"img/{i.string}.jpg")
+                destination = os.path.join(os.path.dirname(__file__), f"img\{i.string}.jpg")
                 img.save(destination)
 
                 # For JS syntax
@@ -53,4 +53,3 @@ def scrape(username, password):
         f.close()
 
     print("Done")
-
