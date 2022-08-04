@@ -4,7 +4,7 @@ Instagram Data
 =================
 [![PyPI](https://img.shields.io/pypi/v/instagram-data.svg)](https://pypi.python.org/pypi/instagram-data) ![PyPI - Implementation](https://img.shields.io/pypi/implementation/instagram-data) ![PyPI - Wheel](https://img.shields.io/pypi/wheel/instagram-data)
 
-instagram-data is a command-line application written in Python that scrapes the top 200 Instagram influencers' username and follower count and downloads their profile pictures.
+instagram-data is a command-line application written in Python that scrapes the top 200 Instagram influencers' username and follower count from [this website](https://viralpitch.co/topinfluencers/instagram/top-200-instagram-influencers/) using [instagrapi](https://github.com/adw0rd/instagrapi) and downloads their profile pictures.
 
 Install
 -------
